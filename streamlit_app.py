@@ -50,11 +50,10 @@ with st.sidebar:
 
 st.title(":red[QuizTube] — Watch. Learn. Quiz. 💡", anchor=False)
 st.write("""
-Ever watched a YouTube video and wondered how well you understood its content? Here's a fun twist: Instead of just watching on YouTube, come to **QuizTube** and test your comprehension!
+Here's a fun twist: Instead of just watching on YouTube, come to **QuizTube** and test your comprehension!
 
 **How does it work?** 🤔
-1. Paste the YouTube video URL of your recently watched video.
-2. Enter your [OpenAI API Key](https://platform.openai.com/account/api-keys).
+You have to get your OPENAI API KEY from https://platform.openai.com/account/api-keys and paste the password to below with the link of the video you want to practice.
 
 ⚠️ Important: The video **must** have English captions for the tool to work.
 """)
