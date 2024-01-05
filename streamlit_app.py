@@ -41,16 +41,16 @@ with st.sidebar:
 
     st.divider()
     st.subheader("🏆 Streamlit Hackathon 2023", anchor=False)
-    st.write("QuizTube proudly stands as Sven's innovative entry for the Streamlit Hackathon held in September 2023. A testament to the power of imagination and code!")
+    st.write("Quizbot proudly stands as Sven's innovative entry for the Streamlit Hackathon held in September 2023. A testament to the power of imagination and code!")
 
     st.divider()
     st.write("Made with ♥ in Dresden, Germany")
 
 
 
-st.title(":red[QuizTube] — Watch. Learn. Quiz. 💡", anchor=False)
+st.title(":red[Quizbot] — Watch. Learn. Quiz. 💡", anchor=False)
 st.write("""
-Here's a fun twist: Instead of just watching on YouTube, come to **QuizTube** and test your comprehension!
+Here's a fun twist: Instead of just watching on YouTube, come to **Quizbot** and test your comprehension!
 
 **How does it work?** 🤔
 You have to get your OPENAI API KEY from https://platform.openai.com/account/api-keys and paste the password to below with the link of the video you want to practice.
