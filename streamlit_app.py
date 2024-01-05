@@ -6,7 +6,7 @@ from helpers.toast_messages import get_random_toast
 
 
 st.set_page_config(
-    page_title="QuizTube",
+    page_title="Quizbot",
     page_icon="📒",
     layout="centered",
     initial_sidebar_state="collapsed"
