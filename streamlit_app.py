@@ -19,25 +19,7 @@ if 'first_time' not in st.session_state:
     st.toast(message, icon=icon)
     st.session_state.first_time = False
 
-with st.sidebar:
-    st.header("👨‍💻 About the Author")
-    st.write("""
-    **Sven Bosau** is a tech enthusiast, educator, and coder. Driven by passion and a love for sharing knowledge, he's created this platform to make learning more interactive and fun.
 
-    Connect, contribute, or just say hi!
-    """)
-
-    st.divider()
-    st.subheader("🔗 Connect with Me", anchor=False)
-    st.markdown(
-        """
-        - [🐙 Source Code](https://github.com/Sven-Bo/streamlit-quiztube)
-        - [🎥 YouTube Channel](https://youtube.com/@codingisfun)
-        - [☕ Buy me a Coffee](https://pythonandvba.com/coffee-donation)
-        - [🌐 Personal Website](https://pythonandvba.com)
-        - [👔 LinkedIn](https://www.linkedin.com/in/sven-bosau/)
-        """
-    )
 
     st.divider()
     st.subheader("🏆 Streamlit Hackathon 2023", anchor=False)
