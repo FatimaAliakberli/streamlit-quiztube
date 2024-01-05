@@ -7,7 +7,7 @@ from helpers.toast_messages import get_random_toast
 
 st.set_page_config(
     page_title="QuizTube",
-    page_icon="🧠",
+    page_icon="📒",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -48,7 +48,7 @@ with st.sidebar:
 
 
 
-st.title(":red[QuizTube] — Watch. Learn. Quiz. 🧠", anchor=False)
+st.title(":red[QuizTube] — Watch. Learn. Quiz. 💡", anchor=False)
 st.write("""
 Ever watched a YouTube video and wondered how well you understood its content? Here's a fun twist: Instead of just watching on YouTube, come to **QuizTube** and test your comprehension!
 
@@ -57,8 +57,6 @@ Ever watched a YouTube video and wondered how well you understood its content? H
 2. Enter your [OpenAI API Key](https://platform.openai.com/account/api-keys).
 
 ⚠️ Important: The video **must** have English captions for the tool to work.
-
-Once you've input the details, voilà! Dive deep into questions crafted just for you, ensuring you've truly grasped the content of the video. Let's put your knowledge to the test! 
 """)
 
 with st.expander("💡 Video Tutorial"):
