@@ -59,10 +59,6 @@ Ever watched a YouTube video and wondered how well you understood its content? H
 ⚠️ Important: The video **must** have English captions for the tool to work.
 """)
 
-with st.expander("💡 Video Tutorial"):
-    with st.spinner("Loading video.."):
-        st.video("https://youtu.be/yzBr3L2BIto", format="video/mp4", start_time=0)
-
 with st.form("user_input"):
     YOUTUBE_URL = st.text_input("Enter the YouTube video link:", value="https://youtu.be/bcYwiwsDfGE?si=qQ0nvkmKkzHJom2y")
     OPENAI_API_KEY = st.text_input("Enter your OpenAI API Key:", placeholder="sk-XXXX", type='password')
