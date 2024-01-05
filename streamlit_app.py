@@ -21,12 +21,7 @@ if 'first_time' not in st.session_state:
 
 
 
-    st.divider()
-    st.subheader("🏆 Streamlit Hackathon 2023", anchor=False)
-    st.write("Quizbot proudly stands as Sven's innovative entry for the Streamlit Hackathon held in September 2023. A testament to the power of imagination and code!")
-
-    st.divider()
-    st.write("Made with ♥ in Dresden, Germany")
+    
 
 
 
